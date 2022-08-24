@@ -1,0 +1,15 @@
+28.08.2022  16:00 
+
+https://restcountries.com/v2/all   
+ 
+1-) Tüm Ülkeleri       "name" ,  "capital",   "region" , "flag” (resim olarak)  bootstrap Table ile listelemeni istiyoruz.
+
+2-) “capital” bölümüne göre bootstrap Table üzerinde filtreleme yapan bir ekran tasarlayınız. 
+(‘Ankara’ yazılır ise başkenti Ankara olan json verisini getirir. Anka yazar ise Anka kelimesini içeren başkentlerin olduğu 
+json yapılarını bootstrap Table filtreler.)
+
+3) Genel olarak içeriklerde arama yapabilen ve o özelliğe sahip json bilgilerini döndüren bir arama yapısı oluşturunuz. 
+(Buradaki arama da girilen string ifadeyi içeren jsonları döndürecektir. Örneğin  “As” yazılır ise As bilgisi içeren bütün 
+Json Api deki içeriğinde arama yaparak bootstrap Table üzerinde listeleyecek örnek bir uygulama geliştirmeni bekliyoruz )
+Uygulamayı : VueJS, ReactJS, AngularJS ile geliştirebilirsin ,  API erişimi için axios kütüphanesi kullanmanı istiyoruz. 
+Tüm UI  bootstrap  ile geliştirilmeli.
